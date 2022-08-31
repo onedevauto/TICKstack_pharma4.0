@@ -121,5 +121,4 @@
     {name="PRODUCT_CNT", namespace="2", identifier_type="s", identifier="MODBUS RTU.Tags.present counter"},
     {name="STATE_MACHINE", namespace="2", identifier_type="s", identifier="Siemens S7-300 MPI(cp18).Tags.Running(cp18)"},
 	{name="SPEED/MINUTE", namespace="2", identifier_type="s", identifier="Local HMI.Tags.G01_cp18.MBperMenit(cp18)"},
-	{name="CycleTime", namespace="2", identifier_type="s", identifier="Local HMI.Tags.G01_cp18.bufer_cycle_time(cp18)"},
   ]
