@@ -31,5 +31,9 @@ The Components are:
 
 ## TODO
 
+## Information Resource:
+- [InfluxDB Official](https://docs.influxdata.com/influxdb/v2.4/install/?t=Windows)
+- [An Introduction to TICK stack for IoT](https://iotbyhvm.ooo/tick-stack/)
+- [InfluxDB (TICK Stack)](https://medium.com/yavar/influxdb-tick-stack-part1-28bd04d10a18)
 
 
