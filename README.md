@@ -28,8 +28,17 @@ The Components are:
 ## Step Instalation
 
 ## Example Implementation 
-This is example implementation to demonstration how easy the sistem build without deep knowlage in IT area with impressive result.
+This is example implementation to demonstration how easy the sistem build without deep knowlage in IT area with impressive result. In this example telegraf agent pooling data from Power Monitorin PM5560 via modbus TCP and data machine via OPC UA.
 
+![influxdb](Doc/Image/influxdb.jpg)
+![block diagram](Doc/Image/block diagram use case 1.png)
+
+## PLC Siemens configuration
+S7-300 and S7-400 usually use rack 0 and slot 2 and dont require additional configuration.
+
+S7-1200 and S7-1500 usually use rack 0 and slot 1 and you need to enable the PUT/GET operations in the hardware configuration of your PLC and you have to set DBs as non-optimized.
+
+Be aware of security issue. Once S7 Communication is enabled in a CPU, there is no way to block communication with a partner device. This means that any device on the same network can read and write data to the CPU using the S7 Communication protocol. For this reason, I would recommend using the native OPC.UA server for the newer S7-1200 and S7-1500 PLCs. See the OPC.UA telegraf plugin.
 
 ## Configuration 
 
