@@ -32,12 +32,14 @@ This is example implementation to demonstration how easy the sistem build withou
 
 ![block diagram](Doc/Image/BlockDiagram.png)
 
-## PLC Siemens configuration
+### Alternative PLC Siemens configuration
 S7-300 and S7-400 usually use rack 0 and slot 2 and dont require additional configuration.
 
 S7-1200 and S7-1500 usually use rack 0 and slot 1 and you need to enable the PUT/GET operations in the hardware configuration of your PLC and you have to set DBs as non-optimized.
 
 Be aware of security issue. Once S7 Communication is enabled in a CPU, there is no way to block communication with a partner device. This means that any device on the same network can read and write data to the CPU using the S7 Communication protocol. For this reason, I would recommend using the native OPC.UA server for the newer S7-1200 and S7-1500 PLCs. See the OPC.UA telegraf plugin.
+
+Source : [nicolasme-s7comm](https://github.com/nicolasme/s7comm)
 
 ## Configuration 
 
