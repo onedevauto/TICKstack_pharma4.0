@@ -21,9 +21,15 @@ The Components are:
 ![influxdb](Doc/Image/influxdb.jpg)
 
 ## Minimum System Requirment
-- Windows 10
+- Windows 7 - 10
 - 64-bit AMD architecture
 - Powershell
+
+## TODO
+- [X] General Introduction 
+- [ ] Explaine step installation
+- [ ] Input Configuration
+- [ ] How to run system in windows
 
 ## Step Instalation
 
@@ -43,9 +49,8 @@ Source : [nicolasme-s7comm](https://github.com/nicolasme/s7comm)
 
 ## Configuration 
 
-## TODO
 
-## Information Resource:
+## Reference Resource:
 - [InfluxDB Official](https://docs.influxdata.com/influxdb/v2.4/install/?t=Windows)
 - [An Introduction to TICK stack for IoT](https://iotbyhvm.ooo/tick-stack/)
 - [InfluxDB (TICK Stack)](https://medium.com/yavar/influxdb-tick-stack-part1-28bd04d10a18)
