@@ -1,7 +1,7 @@
 # TICKstack_pharma4.0
 Implementation TICK Stack Architecture for pharma 4.0 (monitoring OEE & Real time data machine) using OS Windows 64bit platform. Basically it's more easy to implementing in linux platform or docker, so why implementation this methode on windows platform? based on my experience as OT engineering, i alway find that standaritation platform OS in manufacturing is windows base. In fact majority OT engineer/automation engineer not familiar with Linux OS. So i hope this repository can guide everyone that want to starting POC/Experiment this architecture in Windows platform.  
 
-![13-16-33](Doc/Image/13-16-33.png)
+![13-16-33](Doc/Image/15-05-31.png)
 
 ## Another Use Cases for TICK Stack Architecture
 TICK aligns well with many potential use cases. It especially fits uses which rely upon triggering events based on constant real-time data streams. An excellent example of this would be fleet tracking. TICK can monitor the fleet data in real-time and create an alert condition if something out of the ordinary occurs. It can also visualize the fleet in its entirety, creating a real-time dashboard of fleet status.
@@ -28,6 +28,8 @@ The Components are:
 ## Step Instalation
 
 ## Example Implementation 
+This is example implementation to demonstration how easy the sistem build without deep knowlage in IT area with impressive result.
+
 
 ## Configuration 
 
