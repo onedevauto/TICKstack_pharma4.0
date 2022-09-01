@@ -30,6 +30,7 @@ The Components are:
 ## Example Implementation 
 This is example implementation to demonstration how easy the sistem build without deep knowlage in IT area with impressive result. In this example telegraf agent pooling data from Power Monitorin PM5560 via modbus TCP and data machine via OPC UA.
 
+![influxdb](Doc/Image/influxdb.jpg)
 ![block diagram](Doc/Image/block diagram use case 1.png)
 
 ## PLC Siemens configuration
