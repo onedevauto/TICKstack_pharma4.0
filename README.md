@@ -30,7 +30,7 @@ The Components are:
 ## Example Implementation 
 This is example implementation to demonstration how easy the sistem build without deep knowlage in IT area with impressive result. In this example telegraf agent pooling data from Power Monitorin PM5560 via modbus TCP and data machine via OPC UA.
 
-![Diagram](block diagram use case 1.png)
+![Diagram](Doc/Image/block diagram use case 1.png)
 
 ## PLC Siemens configuration
 S7-300 and S7-400 usually use rack 0 and slot 2 and dont require additional configuration.
